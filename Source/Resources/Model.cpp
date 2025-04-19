@@ -170,11 +170,11 @@ void Model::Render(const DirectX::XMFLOAT4X4 world, const std::vector<Node>& ani
                 graphics.GetDeviceContext()->DrawIndexed(static_cast<UINT>(primitive.indexBufferView_.Count()), 0, 0);
             }
 
+        }
             for (std::vector<int>::value_type childIndex : node.children_)
             {
                 traverse(childIndex);
             }
-        }
         };
 
     for (std::vector<int>::value_type nodeIndex : scenes_.at(0).nodes_)

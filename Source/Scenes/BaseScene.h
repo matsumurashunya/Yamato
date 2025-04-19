@@ -30,6 +30,8 @@ public:
 
         graphics.SetDepthStencilState(Shader::DepthState::TestAndWrite);
         graphics.SetBlendState(Shader::BlendState::None);
-        graphics.SetRasterizerState(Shader::RasterState::Solid);
+        
+        //graphics.SetRasterizerState(Shader::RasterState::Solid);
+        graphics.SetRasterizerState(Shader::RasterState::CullNone);
     }
 };
