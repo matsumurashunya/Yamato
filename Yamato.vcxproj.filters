@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{a0c818e5-8ce1-40db-9900-cd7b2a8d5f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato">
+      <UniqueIdentifier>{567840f0-30ad-4ff5-8f7f-d49fa459481d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Shader">
+      <UniqueIdentifier>{94156189-e95d-4c5a-a89f-a2b2c5d81e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Graphics">
+      <UniqueIdentifier>{c16ecbaf-cc27-4715-8c1d-9b11edf7ed36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ImGui">
+      <UniqueIdentifier>{789f5f5f-5f98-401d-b504-e52c50eebb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Core">
+      <UniqueIdentifier>{f7194128-b76b-4d4a-9124-babdc6c7a734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Resources">
+      <UniqueIdentifier>{abdabca9-5404-4571-aadb-5b16fa58b6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Resources\Sprite">
+      <UniqueIdentifier>{d9c5d57c-1bc2-430c-9648-df97cb607f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Resources\Model">
+      <UniqueIdentifier>{bcfaf9fe-b6ff-4d4c-b1ad-88678cb0950b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Scene">
+      <UniqueIdentifier>{5882dc9d-4efa-4ce7-846c-371ab2da5ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Shader\Model">
+      <UniqueIdentifier>{a8d05834-2aa2-4a6c-8fea-790b768beadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Shader\Sprite">
+      <UniqueIdentifier>{d0ad0f1e-2feb-499d-97c9-941b6f6b9e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Resources\Audio">
+      <UniqueIdentifier>{0716a9d6-c3c3-419a-a0b5-c7c2027415e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Resources\Effect">
+      <UniqueIdentifier>{817179ec-786b-4508-9209-c7e978915c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Math">
+      <UniqueIdentifier>{a5098922-5a84-4fc4-9fbb-aba48e2ca6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Graphics\Shader">
+      <UniqueIdentifier>{981c1ec6-65ac-4ee0-a712-e5f515709899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Scene\TestScene">
+      <UniqueIdentifier>{130e8c52-d67c-46e5-9bdd-11c1fa373318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\GameObjects">
+      <UniqueIdentifier>{cdde9c1e-ab7e-4294-a849-f1152dda7d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Systems">
+      <UniqueIdentifier>{7661c63a-9655-4e25-9a91-0fe83f3818d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Graphics\Camera">
+      <UniqueIdentifier>{d8b8e96c-68a5-4f21-882d-9c22a55c5294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Graphics\SkyMap">
+      <UniqueIdentifier>{50422f8c-00f2-4926-8ca7-221676f5542c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yamato\Shader\SkyMap">
+      <UniqueIdentifier>{acc5eb11-f83c-4e99-b0cd-d8de055427f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Graphics\Graphics.cpp">
+      <Filter>Yamato\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_demo.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_draw.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_impl_dx11.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_impl_win32.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_ja_gryph_ranges.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_tables.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_widgets.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\ImGuiCtrl.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Main.cpp">
+      <Filter>Yamato\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Framework.cpp">
+      <Filter>Yamato\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Model.cpp">
+      <Filter>Yamato\Resources\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Sprite.cpp">
+      <Filter>Yamato\Resources\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\Shader.cpp">
+      <Filter>Yamato\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resources\Texture.cpp">
+      <Filter>Yamato\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\SceneManager.cpp">
+      <Filter>Yamato\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\Input.cpp">
+      <Filter>Yamato\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\GamePad.cpp">
+      <Filter>Yamato\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\Mouse.cpp">
+      <Filter>Yamato\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\TestScene.cpp">
+      <Filter>Yamato\Scene\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\FrameBuffer.cpp">
+      <Filter>Yamato\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\FullscreenQuad.cpp">
+      <Filter>Yamato\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Camera\Camera.cpp">
+      <Filter>Yamato\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\CameraController.cpp">
+      <Filter>Yamato\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\SkyMap.cpp">
+      <Filter>Yamato\Graphics\SkyMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\ImGui\imconfig.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_impl_dx11.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_impl_win32.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_internal.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\ImGuiCtrl.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imstb_rectpack.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imstb_textedit.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imstb_truetype.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Framework.h">
+      <Filter>Yamato\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\HighResolutionTimer.h">
+      <Filter>Yamato\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Misc.h">
+      <Filter>Yamato\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Graphics.h">
+      <Filter>Yamato\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Model.h">
+      <Filter>Yamato\Resources\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Easing.h">
+      <Filter>Yamato\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Helper.h">
+      <Filter>Yamato\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Sprite.h">
+      <Filter>Yamato\Resources\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\Shader.h">
+      <Filter>Yamato\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resources\Texture.h">
+      <Filter>Yamato\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\BaseScene.h">
+      <Filter>Yamato\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\SceneManager.h">
+      <Filter>Yamato\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\Input.h">
+      <Filter>Yamato\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\GamePad.h">
+      <Filter>Yamato\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\Mouse.h">
+      <Filter>Yamato\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\Transform.h">
+      <Filter>Yamato\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\Object3D.h">
+      <Filter>Yamato\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\Object2D.h">
+      <Filter>Yamato\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\TestScene.h">
+      <Filter>Yamato\Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\FrameBuffer.h">
+      <Filter>Yamato\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\FullscreenQuad.h">
+      <Filter>Yamato\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Camera\Camera.h">
+      <Filter>Yamato\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\CameraController.h">
+      <Filter>Yamato\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\SkyMap.h">
+      <Filter>Yamato\Graphics\SkyMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Systems\Logger.h">
+      <Filter>Yamato\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\Sprite.hlsli">
+      <Filter>Yamato\Shader\Sprite</Filter>
+    </None>
+    <None Include="Source\Shader\Model.hlsli">
+      <Filter>Yamato\Shader\Model</Filter>
+    </None>
+    <None Include="Source\Shader\FullscreenQuad.hlsli">
+      <Filter>Yamato\Shader</Filter>
+    </None>
+    <None Include="Source\Shader\SkyMap.hlsli">
+      <Filter>Yamato\Shader\SkyMap</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shader\SpritePS.hlsl">
+      <Filter>Yamato\Shader\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\SpriteVS.hlsl">
+      <Filter>Yamato\Shader\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\ModelPS.hlsl">
+      <Filter>Yamato\Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\ModelVS.hlsl">
+      <Filter>Yamato\Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\FullscreenQuadPS.hlsl">
+      <Filter>Yamato\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\FullscreenQuadVS.hlsl">
+      <Filter>Yamato\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\BlurPS.hlsl">
+      <Filter>Yamato\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\Luminanceextraction.hlsl">
+      <Filter>Yamato\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\SkyMapPS.hlsl">
+      <Filter>Yamato\Shader\SkyMap</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\SkyMapVS.hlsl">
+      <Filter>Yamato\Shader\SkyMap</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\SkyBoxPS.hlsl">
+      <Filter>Yamato\Shader\SkyMap</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
