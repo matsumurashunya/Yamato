@@ -2,8 +2,8 @@
 #include "BaseScene.h"
 
 //TODO ƒeƒXƒg
-#include "Transform.h"
-#include "Model.h"
+#include "GameObjects/Transform.h"
+#include "Resources/Model.h"
 #include <memory>
 #include "SkyMap.h"
 
