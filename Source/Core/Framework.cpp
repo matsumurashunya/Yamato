@@ -1,6 +1,6 @@
 #include "Framework.h"
-#include "Scenes/SceneManager.h"
-#include "Systems/CameraController.h"
+#include "SceneManager.h"
+#include "CameraController.h"
 #include "ImGui/ImGuiCtrl.h"
 #include "Misc.h"
 
